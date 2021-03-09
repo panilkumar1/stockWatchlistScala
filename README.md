@@ -1,10 +1,14 @@
 # Watchlist for Stocks
 
+## Requirements
+For building and running the application you need:
+
+- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- SBT
 
 ## Running the application locally
 
-Open the project in IntelliJ and Run the application as Play Framework. Go to http://localhost:9000
-There seems to be version compatibility issues with Scala, Play and SBT, so I couldn't run this in terminal.
+From Terminal execute command "sbt run"
 
 ## Features
 - NO Persistence. Watchlist data is lost upon restart.
